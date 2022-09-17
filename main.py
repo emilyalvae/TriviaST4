@@ -30,7 +30,7 @@ while iniciar_trivia == True:
   print("b) 1986")
   print("c) 1985")
   print("d) 1988"+RESET)
-  respuesta_1 = input(CYAN+"\nTu respuesta: "+RESET)
+  respuesta_1 = input(CYAN+"\nTu respuesta: "+RESET).lower()
   while respuesta_1 not in ("a", "b", "c", "d","z"):
     respuesta_1 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
   if respuesta_1 == "a":
@@ -55,7 +55,7 @@ while iniciar_trivia == True:
   print("b) Roca Cadaver")
   print("c) Roca Calavera")
   print("d) Roca Amantes")
-  respuesta_2 = input(CYAN+"\nTu respuesta: "+RESET)
+  respuesta_2 = input(CYAN+"\nTu respuesta: "+RESET).lower()
   while respuesta_2 not in ("a", "b", "c", "d"):
     respuesta_2 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
   if respuesta_2 == "a":
@@ -77,7 +77,7 @@ while iniciar_trivia == True:
   print("b) Monic Pardo")
   print("c) Madonna")
   print("d) Susy Diaz")
-  respuesta_3 = input(CYAN+"\nTu respuesta: "+RESET)
+  respuesta_3 = input(CYAN+"\nTu respuesta: "+RESET).lower()
   while respuesta_3 not in ("a", "b", "c", "d"):
     respuesta_3 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
   if respuesta_3 == "b":
